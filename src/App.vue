@@ -11,6 +11,7 @@ export default {
 </script>
 
 <style lang="less">
+@import url('http://at.alicdn.com/t/font_1620759_wzveoh4m1b.css');
   *{
     margin : 0;
     padding: 0;

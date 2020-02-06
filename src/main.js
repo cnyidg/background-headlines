@@ -6,6 +6,9 @@ import router from './router'
 
 import axios from "axios";
 
+// 设置axios的基准路径
+axios.defaults.baseURL =  "http://127.0.0.1:3000";
+
 Vue.prototype.axios = axios;
 // 引入 ui 库
 import ElementUI from 'element-ui';
